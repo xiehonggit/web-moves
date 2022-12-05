@@ -68,6 +68,7 @@
             <input id="ticketfindtext" type="text" name="title" lay-verify="title" autocomplete="off" placeholder="请输入用户账号" class="layui-input">
             <button class="layui-btn layui-btn-sm" lay-event="findticketbtn">搜索</button>
         </div>
+
     </script>
     <script type="text/html" id="backticketbar">
         <a class="layui-btn layui-btn-primary layui-btn-xs" lay-event="detail">查看</a>

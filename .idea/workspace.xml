@@ -9,7 +9,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba62ed87-2211-4abe-bdde-5e424116f5a5" name="Default Changelist" comment="通过ajax修改" />
+    <list default="true" id="ba62ed87-2211-4abe-bdde-5e424116f5a5" name="Default Changelist" comment="通过ajax修改">
+      <change afterPath="$PROJECT_DIR$/out/artifacts/film_war_exploded/WEB-INF/classes/com/movie/dao/TypeMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/film_war_exploded/WEB-INF/classes/com/movie/service/TypeService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/film_war_exploded/WEB-INF/classes/com/movie/servlet/getAreaServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/film_war_exploded/WEB-INF/classes/com/movie/servlet/getTypeServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/film/com/movie/dao/TypeMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/film/com/movie/service/TypeService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/film/com/movie/servlet/getAreaServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/film/com/movie/servlet/getTypeServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/movie/dao/TypeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/movie/service/TypeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/movie/servlet/getAreaServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/movie/servlet/getTypeServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/film_war_exploded/WEB-INF/classes/com/movie/servlet/getYearServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/film_war_exploded/WEB-INF/classes/com/movie/servlet/getYearServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/film_war_exploded/WEB-INF/classes/com/movie/test1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/film_war_exploded/WEB-INF/classes/com/movie/test1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/film_war_exploded/jsp/manage/order.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/film_war_exploded/jsp/manage/order.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/film_war_exploded/jsp/movieList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/film_war_exploded/jsp/movieList.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/film/com/movie/servlet/getYearServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/film/com/movie/servlet/getYearServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/film/com/movie/test1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/film/com/movie/test1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/movie/servlet/getYearServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/movie/servlet/getYearServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/movie/test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/movie/test1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/jsp/manage/order.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/jsp/manage/order.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/jsp/movieList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/jsp/movieList.jsp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,7 +78,9 @@
     <option name="height" value="733" />
   </component>
   <component name="ProjectId" id="2ITytJvvNTyoxzZIrPSHDxX8CNn" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -100,8 +126,24 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\ProgramFile\ideaWorkSpace\film\web\WEB-INF\lib" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.movie.servlet" />
+    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.82">
+    <configuration name="test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.movie.test1" />
+      <module name="film" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.movie.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Tomcat 8.5.82" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.82" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
@@ -189,6 +231,11 @@
         </option>
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.test1" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -205,7 +252,8 @@
       <workItem from="1670220081876" duration="379000" />
       <workItem from="1670220581765" duration="2639000" />
       <workItem from="1670223291285" duration="5565000" />
-      <workItem from="1670229894009" duration="908000" />
+      <workItem from="1670229894009" duration="1863000" />
+      <workItem from="1670235479157" duration="5206000" />
     </task>
     <task id="LOCAL-00001" summary="项目源代码">
       <created>1670220874152</created>

@@ -299,19 +299,38 @@
 
         //初始化标签
         function initTags(){
+
             var tagsType = $(".tags-type"),
                 tagsArea = $(".tags-area"),
                 tagsYear = $(".tags-year");
-            var TypeStr = ["全部","爱情","喜剧","动画","剧情","惊悚","科幻","动作","悬疑","犯罪","冒险","运动","家庭","古装"],
-                AreaStr = ["全部","大陆","美国","韩国","日本","中国香港","中国台湾","泰国","印度","法国","英国","俄罗斯","意大利"],
-                YearStr = ["全部","2020","2019","2018","2017","2016","2015","2014"];
+            var TypeStr = ["全部"],
+                AreaStr = ["全部"],
+                YearStr = ["全部"];
             $.ajax({
-                url:"/getYearServlet",
-                dataType:"json",
-                method:"post",
+                url:"${pageContext.request.contextPath}/getType",
+                type:"post",
                 async:false,
                 success:function (date){
-                    alert(date)
+                    for(i=0;i<date.length;i++){
+                        TypeStr.push(date[i])
+                    }
+                }
+            });
+            $.ajax({
+                url:"${pageContext.request.contextPath}/getArea",
+                type:"post",
+                async:false,
+                success:function (date){
+                    for(i=0;i<date.length;i++){
+                        AreaStr.push(date[i])
+                    }
+                }
+            });
+            $.ajax({
+                url:"${pageContext.request.contextPath}/getYear",
+                type:"post",
+                async:false,
+                success:function (date){
                     for(i=0;i<date.length;i++){
                         YearStr.push(date[i])
                     }
